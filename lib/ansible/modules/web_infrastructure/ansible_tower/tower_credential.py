@@ -119,6 +119,7 @@ EXAMPLES = '''
 - name: Add tower credential
   tower_credential:
     name: Team Name
+    kind: tower
     description: Team Description
     organization: test-org
     state: present
